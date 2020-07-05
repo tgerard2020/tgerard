@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+<category>
+    <pattern>LOAVES AND FISHES</pattern>
+        <template>what would you like to know about <set name="topic">loaves and fishes</set>?</template>
+</category>
+
+<topic name = "loaves and fishes">
+
+<category>
+    <pattern>DO THEY HAVE A FOOD PANTRY</pattern>
+        <template>Yes they do.$1$</template>
+</category>
+
+<category>
+    <pattern>WHAT ARE THE HOURS</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THEIR HOURS</pattern>
+        <template>$the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>DO YOU KNOW WHEN THEY ARE OPEN</pattern>
+        <template>@the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHEN ARE THEY OPEN</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>DO YOU KNOW WHEN THEY CLOSE</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THE HOURS OF OPERATION</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THEIR HOURS OF OPERATION</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THE OPERATING HOURS</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THEIR OPERATING HOURS</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THE HOURS *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+
+<category>
+    <pattern>WHAT IS A FOOD PANTRY</pattern>
+        <template>most cities and towns have a local food pantry.<br/>some are ngo's and some are run by a local church<br/>a food pantry usually distributes food to those families or individual that are in need.<br/>$1.1$</template>
+</category>
+<category>
+    <pattern>* FOOD PANTRY</pattern>
+        <template>Yes they do.$3$</template>
+</category>
+
+
+<category>
+    <pattern>WHAT ARE THE HOURS *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THEIR HOURS *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>DO YOU KNOW WHEN THEY ARE OPEN *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHEN ARE THEY OPEN *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>DO YOU KNOW WHEN THEY CLOSE *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THE HOURS OF OPERATION *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THEIR HOURS OF OPERATION *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THE OPERATING HOURS *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+<category>
+    <pattern>WHAT ARE THEIR OPERATING HOURS *</pattern>
+        <template>the hours they are open are:<br/>8 to 5 monday thru friday.<br/>they are not open on weekends.</template>
+</category>
+
+<!-- insert your AIML categories here-->
+<!-- how do i sign up?-->
+<!-- how do i sign up *-->
+<!-- how do i sign up for the food bank-->
+<!-- how do i sign up to get food from the food bank-->
+<!-- how do i sign up to recieve food from the food bank-->
+<!-- how do i sign up to receive food from the food bank-->
+<!-- how do i get food -->
+<!-- how do i get food *-->
+<!-- how can i get food from the food bank-->
+<!-- how do i get food from the food bank-->
+<!-- how can i get food-->
+<!-- how can i get food *-->
+<!-- can i get food at the food bank-->
+<!-- can i just walk in and get food at the food bank-->
+<!-- can i walk in and get food-->
+<!-- can i walk in and get food at the food bank-->
+<!--  what kind of food can i get-->
+<!-- can i get meat-->
+<!-- can i get meat *-->
+<!-- can i get meat from the food bank-->
+<!-- do you have meat-->
+<!-- do you have meat *-->
+<!-- do you have meat at the food bank-->
+<!-- can i get fruit-->
+<!-- can i get fruit *-->
+<!-- can i get fruit from the food bank-->
+<!-- do you have fruit-->
+<!-- do you have fruit *-->
+<!-- do you have fruit at the food bank-->
+<!-- can i get fresh fuit-->
+<!-- can i get fresh fruit *-->
+<!-- do you have fresh fruit from the food bank-->
+<!-- can i get fresh fuit-->
+<!-- can i get fresh fruit *-->
+<!-- can i get fresh fruit from the food bank-->
+
+<!-- can i get vegetables-->
+<!-- can i get vegetables *-->
+<!-- can i get vegetables from the food bank-->
+<!-- can i get fresh vegetables-->
+<!-- can i get fresh vegetables *-->
+<!-- can i get fresh vegetables from the food bank-->
+<!-- can i get rice-->
+<!-- can i get rice *-->
+<!-- can i get rice from the food bank-->
+
+<!-- -->
+<!-- -->
+<!-- -->
+
+<category>
+    <pattern>*</pattern>
+        <template>please be more specific. </template>
+</category>
+
+</topic>	
+</aiml>

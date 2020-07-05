@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+    <category>
+    <pattern>CAN YOU HELP ME</pattern>
+    <template>
+        <random>
+            <li>just ask for tgerard, he should be able to help you.</li>
+            <li>do you know what you would like help with?</li>
+            <li>just state what you want help with. such as: csa or coop.</li>
+            <li>For CSA information type in csa. for information on the food pantry type in: pantry</li>
+        </random>
+    </template>
+    </category>
+</aiml>
